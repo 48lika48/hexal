@@ -1,0 +1,62 @@
+body {
+    width: 1020px;
+    height: 1732px;
+    margin: auto;
+}
+
+header {
+    height: 63px;
+}
+
+nav {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+nav a, span {
+    color: white;
+    text-decoration: none;
+    font-size: 7.21379pt;
+    font-family: "Lato-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+    padding: 2px;
+}
+
+a:hover {
+    color: rgba(46, 179, 152, 255);
+}
+
+nav img {
+    width: 64px;
+    height: 55px;
+    vertical-align: middle;
+}
+
+nav div {
+    display: inline-block;
+}
+
+.block1 {
+    width: 114px;
+    height: 8px;
+    display: inline-block;
+    margin: 0px 37px 0px 0px;
+}
+
+.block2 {
+    width: 117px;
+    height: 8px;
+    display: inline-block;
+    margin: 0px 0px 0px 39px;
+}
+
+.hexagonav {
+    width: 180px;
+    height: 206px;
+    position: relative;
+    bottom: 170px;
+    z-index: 0;
+    display: block; 
+    margin: 0 auto;
+}
