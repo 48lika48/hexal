@@ -62,16 +62,175 @@ nav div {
 }
 
 
-/*ГЕКСАГОНЫ
-    .hex1 {
+/*ГЕКСАГОНЫ*/
+
+.linehex1 {
+    width: 400px;
+    height: 1px;
+    display: inline-block;
+    color: rgb(80, 80, 80);
+    margin: 11px 0px 0px 30px;
+}
+
+.linehex2 {
+    width: 400px;
+    height: 1px;
+    display: inline-block;
+    color: rgb(80, 80, 80);
+    margin: 11px 0px 0px 150px;
+}
+
+.raw1 {
+    
+    
+}
+
+.raw2 {
+    
+    
+}
+
+.raw3 {
+    
+    
+}
+
+.hex01 {
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     background: url("assets/hex01.png") no-repeat;
     background-position: center;
     background-size: cover;
+    display: inline-block;
+    margin: 77px 18px 0px 119px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex02 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex02.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex03 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex03.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 77px 19px 0px 18px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex04 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex04.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
     height: 206px;
     width: 180px;      
-} */
+}
 
+.hex05 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex05.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0px 18px 0px 19px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex06 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex06.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex07 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex07.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0px 18px 0px 18px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex08 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex08.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex09 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex09.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0px 0px 0px 18px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex10 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex10.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0px 18px 0px 119px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex11 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex11.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex12 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex12.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0px 18px 0px 18px;
+    height: 209px;
+    width: 182px;      
+}
+
+.hex13 {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: url("assets/hex13.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 209px;
+    width: 182px;      
+}
 
 article {
     height: 341px;
