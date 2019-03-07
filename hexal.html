@@ -21,7 +21,7 @@
         <img class="hexagonav" src="assets/hexagonav.png">
     </header>
     <main>
-        <section>
+        <section id="portfolio">
             <hr class="linehex1">
             <hr class="linehex2">
 
@@ -57,9 +57,9 @@
             <div class="hexagon">
             </div>
                         
-            <h1>Smith Anderson</h1>
+            <h1 id="about">Smith Anderson</h1>
             <h2>Illustrator & Character Designer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p><br>
+            <p id="blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p><br>
         
             <div class="button">
             <a target="_blank" href="https://www.facebook.com/people/Anderson-Smith/100022177748965"><img src="assets/01Facebook.png"></a>
@@ -72,6 +72,20 @@
         </article>
     </main>
     <footer>
+        <form action="/example.html" method="POST">
+            <h3 id="getintouch">Get In Touch</h3>
+            <h4>In order to get in touch use the contact form below:</h4>
+            <div class="data">
+                <p><input class="gray" type="text" name="name" placeholder="Name (Required)" required></p>
+                <p><input class="gray" type="email" name="email" placeholder="Email (Required)" required></p>
+                <p><input class="gray" type="text" name="subject" placeholder="Subject"></p>
+                <p><textarea id="textarea" class="gray" name="message" placeholder="Write your message here..." rows="5" cols="30"></textarea></p>
+            </div>
+            <p><input class="send" type="submit" value="SEND"></p>
+            <!--<p class="latin"><b>Quisque Hendrerit</b> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faicibus morbi vitae.</p>
+            <hr>-->
+            </form> 
+        <!--<p class="copy">© Copyright 2013 by PSDchat</p>-->
     </footer>
 
 </body>
