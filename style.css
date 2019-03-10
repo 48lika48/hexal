@@ -84,6 +84,30 @@ nav div {
     margin: 11px 0px 0px 150px;
 }
 
+.sectvertical1 {
+    color: rgb(80, 80, 80);
+    margin: 129px 0px 0px 99px;
+    float: left;
+}
+
+.sectvertical2 {
+    color: rgb(80, 80, 80);
+    margin: 129px 89px 0px 0px;
+    float: right;
+}
+
+.sectvertical3 {
+    color: rgb(80, 80, 80);
+    margin: 52px 0px 0px 99px;
+    float: left;
+}
+
+.sectvertical4 {
+    color: rgb(80, 80, 80);
+    margin: 52px 89px 0px 0px;
+    float: right;
+}
+
 .raw1 {
     margin-bottom: -35px;
 }
@@ -102,7 +126,7 @@ nav div {
     background-position: center;
     background-size: cover;
     display: inline-block;
-    margin: 77px 18px 0px 119px;
+    margin: 77px 18px 0px 19px;
     height: 209px;
     width: 182px;      
 }
@@ -196,7 +220,7 @@ nav div {
     background-position: center;
     background-size: cover;
     display: inline-block;
-    margin: 0px 18px 0px 119px;
+    margin: 0px 18px 0px 19px;
     height: 209px;
     width: 182px;      
 }
@@ -230,6 +254,12 @@ nav div {
     display: inline-block;
     height: 209px;
     width: 182px;      
+}
+
+.rect {
+    display: inline;
+    margin-left: 30px;
+    padding-right: 3px;
 }
 
 article {
